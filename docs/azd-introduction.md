@@ -3,13 +3,13 @@
 Azure Developer CLI (azd) is an open-source tool that accelerates the time it takes for you to get your application from local development environment to Azure.  
 Azd provides best practice, developer-friendly commands that map to key stages in your workflow, whether you’re working in the terminal, your editor or integrated development environment (IDE), or CI/CD (continuous integration/continuous deployment).
 
-Details refer : https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/overview
+Details refer : [Azure Developer CLI Overview](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/overview)
 
 ![](images/azd01.png)
 
 ## Installation
 
-Below is the installation script you could run in windows, for other installation, please refer https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows
+Below is the installation script you could run in windows, for other installation, please refer [AZD Installation](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows)
 ```poershell
 winget install microsoft.azd
 ```
@@ -59,7 +59,7 @@ azd init --template calvinonazure/function-app-windows-custom-php
 azd init --template calvinonazure/function-app-windows-netcore
 azd init --template calvinonazure/function-app-windows-powershell
 ```
-You could also view the public templates from https://github.com/topics/azd-templates
+You could also view the public templates from [https://github.com/topics/azd-templates](https://github.com/topics/azd-templates)
 
 ## Deploy
 ```bash
